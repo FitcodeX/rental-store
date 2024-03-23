@@ -1,5 +1,5 @@
 window.onload = () => {
-    const baseUrl ="http://127.0.0.1:8000" 
+    const baseUrl ="http://3.129.15.112:8000" 
 
     const doFetch = async (url) => {
         const result = await fetch(url)
