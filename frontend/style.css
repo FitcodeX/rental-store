@@ -1,0 +1,48 @@
+body {
+  font-family: 'Courier New', monospace; /* Emphasizes the retro, typewriter-like feel */
+  margin: 0;
+  padding: 0;
+  background-color: #000080; /* Deep blue background, reminiscent of the classic Blockbuster logo */
+  color: #120101; /* Ensures text stands out against the darker background */
+}
+
+header {
+  background-color: #ffdf00; /* Bright yellow, evoking the Blockbuster sign */
+  color: #000080; /* Deep blue text for contrast */
+  padding: 20px;
+  text-align: center;
+  font-size: 24px; /* Larger text for a bold statement */
+  border-bottom: 5px dashed #ffffff; /* Adds a playful, retro border */
+}
+
+main {
+  padding: 20px;
+  background-color: #f0e68c; /* A light khaki background, adding to the retro vibe */
+}
+
+button {
+  background-color: #ff4500; /* A vibrant orange, common in retro designs */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Courier New', monospace;
+  font-size: 16px; /* Slightly larger font size for readability */
+  box-shadow: 3px 3px #888888; /* Adds a 3D effect to the buttons */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  border: 1px solid #ffdf00; /* Adds a yellow border for a pop of color */
+}
+

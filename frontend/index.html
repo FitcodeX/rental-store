@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rentals</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <header>
+        <img src="https://www.logotypes101.com/logos/410/63B806413EDC7105AC07EB2A3ABE06F2/Blockbuster.png" style="max-width: 50%; height: auto; display: block; margin: 0 auto;"> 
+        <h1>Welcome to MovieRentals</h1>
+    </header>
+
+    <main>
+        <button id="invBtn">Get Inventory</button>
+        <button id="custBtn">Get Customers</button>
+        <button id="addCustomerBtn">Add New Customer</button>
+       
+        <!-- Add New Customer Form, hidden by default -->
+        <div id="addCustomerForm" style="display: none;">
+            <form id="newCustomerForm">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName"><br><br>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName"><br><br>
+                <label for="accountType">Account Type:</label>
+                <select id="accountType" name="accountType">
+                    <option value=1>Regular</option>
+                    <option value=2>Premium</option>
+                </select><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div id="listContainer"></div>
+
+        <div class="dropdown">
+          <label for="userSelect" id="userDropdownBtn">Get Individual Customer Rentals</label>
+            <div id="userDropdownContent">
+                <select id="userSelect">
+                    <option value="">-- Select a number --</option>
+                    <!-- Generate options dynamically using JavaScript -->
+                </select>
+            </div>
+            <div id="userContainer"></div>
+        </div>
+    </main>
+</body>
+</html>
